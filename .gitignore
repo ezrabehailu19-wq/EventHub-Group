@@ -1,0 +1,17 @@
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# Generated folders: they can be rebuilt
+node_modules/
+dist/
+target/
+bin/
+
+# Logs, editor and system files
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
